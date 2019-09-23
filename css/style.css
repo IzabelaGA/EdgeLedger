@@ -35,7 +35,14 @@ p {
 .text-primary {
     color: #93cb52;
 }
-
+.bg-light{
+    background: #f4f4f4;
+    color: #333;
+}
+.bg-dark{
+background: #333;
+color: #fff;
+}
 .l-heading {
     font-size: 4rem;
     margin-bottom: 0.75rem;
@@ -64,6 +71,17 @@ p {
 .py-3 {
     padding: 3rem 0;
 }
+.p-1 {
+    padding: 1.5rem;
+}
+
+.p-2 {
+    padding: 2rem;
+}
+
+.p-3 {
+    padding: 3rem;
+}
 
 .btn {
     display: inline-block;
@@ -82,7 +100,14 @@ p {
     background: #333;
     color: #fff;
 }
-
+.list{
+    margin: .5rem 0;
+    list-style: none;
+}
+.list li{
+    padding: 0.5rem 0;
+    border-bottom: 1px dotted #444;
+}
 /* Navbar */
 #navbar {
     display: flex;
@@ -127,7 +152,7 @@ p {
     justify-content: center;
     align-items: center;
     padding: 0 2rem;
-    
+
     /* Overlay */
     /* Without the position absolute also works, but with that it's need add width 100vw or add right and bottom 0*/
 
@@ -136,7 +161,7 @@ p {
     left: 0px;
     right: 0;
     bottom: 0;
-    
+
     background-color: rgba(0, 0, 0, .4);
     /* width: 100vw; */
 
@@ -162,6 +187,18 @@ p {
     margin-bottom: 1rem;
 }
 
-/* header{
+header {
     display: none;
-} */
+}
+
+/* Section What We Are */
+#who{
+    display: flex;
+}
+#who div{
+    flex: 1;
+}
+#who .who-img{
+    background: url("../img/people.jpg") no-repeat center center/cover;
+
+}
