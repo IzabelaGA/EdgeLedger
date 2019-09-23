@@ -35,7 +35,10 @@ p {
 .text-primary {
     color: #93cb52;
 }
-
+.bg-primary{
+    background: #93cb52;
+    color:  #fff;
+}
 .bg-light {
     background: #f4f4f4;
     color: #333;
@@ -194,10 +197,7 @@ p {
     margin-bottom: 1rem;
 }
 
-header,
-#what {
-    display: none;
-}
+
 
 /* Section What We Are */
 #who {
@@ -222,4 +222,28 @@ header,
     display: block;
     margin: auto;
     width: 60%;
+}
+
+header,
+#what,
+#who {
+    display: none;
+}
+
+/* Section: Contact */
+#contact{
+    display: flex;
+}
+#contact .contact-form, #contact .map{
+    flex: 1;
+}
+#contact .contact-form .form-group{
+    margin: .75rem 0;
+}
+#contact .contact-form label{
+    display: block;
+}
+#contact .contact-form input, #contact .contact-form textarea{
+width: 100%;
+padding: .5rem;
 }
