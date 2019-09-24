@@ -166,7 +166,7 @@ p {
     /* Overlay */
     /* Without the position absolute also works, but with that it's need add width 100vw or add right and bottom 0*/
 
-    position: absolute;
+    /* position: absolute; */
     top: 60px;
     left: 0px;
     right: 0;
