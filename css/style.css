@@ -184,7 +184,7 @@ p {
 }
 
 #what .items .item {
-    /* flex: 1; */
+    flex: 1;
     text-align: center;
     padding: 1rem;
 
