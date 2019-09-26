@@ -22,7 +22,7 @@ window.addEventListener('scroll', function() {
   });
 
 //   Smoth Scrolling
-$('#navbar a').on('click', function(event) {
+$('#navbar a, .btn-light').on('click', function(event) {
     if (this.hash !== '') {
       event.preventDefault();
   
