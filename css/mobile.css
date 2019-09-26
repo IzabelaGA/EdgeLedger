@@ -14,6 +14,11 @@
     align-self: center;
     margin-bottom: 0;
 }
+#showcase {
+    background: #333 url('../img/showcase.jpg') no-repeat 32% center/cover;
+    background-attachment: fixed;
+
+}
 
 /* *************Smartphone */
 @media(max-width: 500px) {
