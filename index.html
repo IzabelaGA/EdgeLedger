@@ -106,18 +106,18 @@
             <p>Please fill out the form below to contact us</p>
             <form action="process.php" method="POST">
                 <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="name" name="name" id="name" placeholder="Enter name"> </div>
+                    <label class="is-required" for="name">Name</label>
+                    <input type="name" name="name" id="name" placeholder="Enter name" required></div>
                 <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email" placeholder="Enter email"></div>
+                    <label class="is-required" for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter email" required></div>
                 <div class="form-group">
                     <label for="phone">Phone</label>
-                    <input type="text" name="text" id="text" placeholder="Enter phone"></div>
+                    <input type="text" name="phone" id="phone" placeholder="Enter phone"></div>
                 <div class="form-group">
-                    <label for="message">Your message</label>
+                    <label class="is-required" for="message">Your message</label>
                     <textarea name="message" id="message" placeholder="Enter message" id="message" cols="30"
-                        rows="2"></textarea>
+                        rows="2" required></textarea>
                 </div>
                 <input type="submit" value="Send" class="btn btn-dark">
             </form>
